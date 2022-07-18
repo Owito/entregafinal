@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+    #navbar {
+        .social {
+            ul {
+                li {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    #showcase {
+        padding: 10px;
+        .showcase-search {
+            input {
+                width: 60%;
+            }
+        }
+        p {
+            padding-top: 20px;
+            width: 80%;
+        }
+    }
+    #search {
+        padding: 20px 0;
+        .search-wrap {
+            flex-direction: column;
+        }
+    }
+    #article {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+        p {
+            margin: 0px;
+        }
+    }
+}
